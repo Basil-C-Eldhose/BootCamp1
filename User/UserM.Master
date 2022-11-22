@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserM.master.cs" Inherits="S_Complaint.User.UserM" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="..\Guest\Maincs.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+      
+        
+
+            <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+              <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="user.aspx">Home</a></li>
+                    <li><a href="comreg.aspx">Complaint Registation</a></li>
+                    <li><a href="query.aspx">Queries?</a></li>
+                    <li><a href="logout.aspx">Log Out</a></li>
+                    
+                    <!--
+                        <li><a href="FacultyReg.aspx">Faculty Registation</a></li>
+                    <li><a href="Admin.aspx">Admin</a></li>
+                        -->
+                   </ul>
+             </div>
+            </nav>
+
+            
+        </div>
+   
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        
+    </form>
+</body>
+</html>
